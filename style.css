@@ -1,0 +1,471 @@
+
+@font-face {
+    font-family: Involve; /* Гарнитура шрифта */
+    src: url(src/font/Involve-Regular.otf); /* Путь к файлу со шрифтом */
+   }
+
+body {
+    overflow-x:hidden;
+    font-family: 'Involve', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1B1717;
+    color: white;
+}
+.err404{
+    display: flex;
+    width: 100%;
+}
+.err404_mob{
+    display: none;
+}
+header {
+    overflow-x:hidden;
+    background-color: #1B1717;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.donate_us{
+    width: 90%;
+}
+.donate_fields{
+    width: 50%;
+}
+.donate_button{
+    transition: all 0.3s ease;
+    width: 50%;
+}
+.logoMobile{
+    display: none;
+}
+#TabletBoard{
+    display: none;
+}
+#MobileBoard{
+    display: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10%;
+    width: 10%;
+}
+
+nav ul li.logo {
+    margin: 0;
+    
+}
+
+nav ul li.logo img {
+    height: 10px;
+    width: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 111%;
+    white-space: nowrap;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    overflow-x:hidden;
+}
+
+.big_txt {
+    width: 80%;
+    align-self: start;
+    font-size: 300%;
+    line-height: 111%;
+    text-align: left;
+}
+#mashup {
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    margin: auto auto;
+    padding: auto;
+    background-color: #1B1717;
+    overflow: hidden;
+    display: flex;
+}
+
+#mashup img {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    transition: all 0.3s ease;
+    scale: 100%;
+}
+
+#mashup img:nth-child(1) { top: 30%; left: 44%; }
+#mashup img:nth-child(2) { top: 1.5%; left: 75%; }
+#mashup img:nth-child(3) { top: 5%; left: 5%; }
+#mashup img:nth-child(4) { top: 57%; left: 52%; }
+#mashup img:nth-child(5) { top: 2%; left: 25%; }
+#mashup img:nth-child(6) { top: 65%; left: 20%; }
+#mashup img:nth-child(7) { top: 52%; left: 40%; }
+#mashup img:nth-child(8) { top: 5%; left: 37%; }
+#mashup img:nth-child(9) { top: 22%; left: 50%; }
+#mashup img:nth-child(10) { top: 10%; left: 15%; }
+#mashup img:nth-child(11) { top: 6%; left: 58%; scale: 210%;}
+#mashup img:nth-child(12) { top: 30%; left: 10%; scale: 150%;}
+#mashup img:nth-child(13) { top: 73%; left: 77%; scale: 150%;}
+#mashup img:nth-child(14) { top: 12%; left: 30%;}
+#mashup img:nth-child(15) { top: 57%; left: 30%;}
+#mashup img:nth-child(16) { top: 34%; left: 53%;}
+#mashup img:nth-child(17) { top: 44%; left: 67%;}
+#mashup img:nth-child(18) { top: 30%; left: 30.5%; scale: 146%;}
+#mashup img:nth-child(19) { top: 65%; left: 34%;}
+#mashup img:nth-child(20) { top: 10%; left: 75%;}
+#mashup img:nth-child(21) { top: 68.9%; left: 43%;}
+#mashup img:nth-child(22) { top: 71%; left: 9%;}
+#mashup img:nth-child(23) { top: 16%; left: 3.7%;}
+#mashup img:nth-child(24) { top: 62%; left: 79%;}
+#mashup img:nth-child(25) { top: 22%; left: 63%;}
+#mashup img:nth-child(26) { top: 42%; left: 6.5%;}
+#mashup img:nth-child(27) { top: 53%; left: 74%;}
+#mashup img:nth-child(28) { top: 43%; left: 23%; scale: 140%;}
+#mashup img:nth-child(29) { top: 67%; left: 53%;}
+#mashup img:nth-child(30) { top: 60%; left: 12%;}
+#mashup img:nth-child(31) { top: 47%; left: 53%; scale: 160%;}
+#mashup img:nth-child(32) { top: 10%; left: 7%;}
+#mashup img:nth-child(33) { top: 58%; left: 60%;}
+#mashup img:nth-child(34) { top: 54%; left: 20.5%;}
+#mashup img:nth-child(35) { top: 68%; left: 87%;}
+#mashup img:nth-child(36) { top: 21%; left: 79%;}
+#mashup img:nth-child(37) { top: 78%; left: 17%;}
+#mashup img:hover {
+    transform: scale(1.25);
+    z-index: 10;
+}
+
+footer {
+    background-color: #1B1717;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    justify-content: left;
+}
+
+.slogan {
+    font-size: 300%;
+    line-height: 111%;
+    font-family: 'Involve';
+}
+
+main p{
+    width: 66%;
+    text-align: left;
+    font-size: 200%;
+}
+.image_container{
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    background-color: #1B1717;
+}
+
+.picture{
+    width: 31%;
+    height: auto;
+}
+
+.footerpic1{
+    width: 20%;
+    margin-right: 25%;
+}
+.footerpic2{
+    width: 20%;
+    margin-left: 25%;
+}
+h2 {
+    font-size: 300%;
+    line-height: 111%;
+    text-align: left;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 111%;
+}
+.artists{
+    padding: 5;
+    justify-content: space-between;
+}
+.artist{
+    width: 30%
+}
+.track{
+    width: 24%;
+}
+.headerinhead{
+    margin-bottom: 10%;
+    padding: 0;
+    width: 100%;
+    
+}
+.profilepic{
+    position: relative;
+    width: 110%;
+    margin: 0 0 0 -5%;
+}
+.link_to_platform{
+    position: relative;
+    left: 30%;
+    margin-top: -10%;
+    
+}
+.alina_Big{
+    width: 80%;
+    text-align: left;
+}
+.merch{
+    width: 100%;
+}
+
+.merch_mob{
+    display: none;
+}
+.donate_button:hover{
+    transform: scale(1.10);
+    z-index: 10;
+}
+@media (max-width: 1000px) {
+    .err404{
+        display: flex;
+        width: 100%;
+        margin: 15% 0;
+    }
+    .err404_mob{
+        display: none;
+    }
+    .donate_us{
+        width: 90%;
+    }
+    .donate_fields{
+        width: 50%;
+    }
+    .donate_button{
+        width: 50%;
+    }
+    .tracks{
+        width: 80%;
+        align-items: center;
+    }
+    .big_txt {
+        font-size: 200%;
+    }
+    .link_to_platform{
+        position: relative;
+        left: 20%;
+        margin-top: -10%;
+        
+    }
+    .merch{
+        width: 100%;
+    }
+    .slogan{
+        width: 100%;
+        text-align: center;
+        font-size: 200%;
+    }
+    main p{
+        font-size: 150%;
+    }
+    header {
+        background-color: #1B1717;
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 3%;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 0 10%;
+        width: 10%;
+    }
+    
+    nav ul li.logo {
+        margin: 0 ;
+        
+    }
+    
+    nav ul li.logo img {
+        height: 10px;
+        width: 10px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 111%;
+        white-space: nowrap;
+    }
+    #mashup{
+        display: none;
+    }    
+    #TabletBoard{
+        display: flex;
+        width: 98%;
+    }
+    .track{
+        width: 24%;
+    }
+    .logoMobile{
+        display: none;
+    }
+    .merch_mob{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .donate_us{
+        width: 90%;
+    }
+    .donate_fields{
+        width: 100%;
+    }
+    .donate_button{
+        width: 100%;
+    }
+    .artists{
+        padding: 2;
+        justify-content: left;
+        align-content: start;
+    }
+    .merch{
+        display: none;
+    }
+    .merch_mob{
+        display: flex;
+        width: 100%;
+    }
+    .link_to_platform{
+        position: relative;
+        left: 0%;
+        margin-top: 0%;
+        width: 90%;
+    }
+    .alina_Big{
+        display: none;
+    }
+    h2{
+        font-size: 150%;
+    }
+    .artist{
+        width: 45%
+    }
+    .big_txt {
+        font-size: 100%;
+    }
+    .slogan{
+        width: 100%;
+        text-align: center;
+        font-size: 100%;
+    }
+    main p{
+        font-size: 80%;
+    }
+    .track{
+        width: 45%;
+    }
+    .tracks{
+        width: 100%;
+        align-items: center;
+    }
+    .footerpic1{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+
+    }
+    .footerpic2{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+       justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a {
+        margin: 1rem 0;
+        font-size: 25px;
+    }
+    #mashup {
+        display: none;
+        
+    }
+    .logoMobile{
+        display: flex;
+        width: 30%;
+    }
+    .logo{
+        display: none;
+    }
+    #MobileBoard{
+        display: flex;
+        scale: 0.9;
+    }
+    #TabletBoard{
+        display: none;
+    }
+    .image_container{
+        align-items: center;
+    }
+    .picture{
+        width: 90%;
+    }
+    .err404{
+        display: none;
+    }
+    .err404_mob{
+        width: 100%;
+        display: flex;
+    }
+}
